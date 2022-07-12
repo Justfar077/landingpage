@@ -1,0 +1,279 @@
+*,
+*:before,
+*:after {
+  box-sizing: border-box;
+}
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+  display: block;
+}
+body {
+  line-height: 1;
+}
+ol, ul {
+  list-style: none;
+}
+blockquote, q {
+  quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+  content: '';
+  content: none;
+}
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+.header, .section, .footer {
+  max-width: 1440px;
+}
+
+
+
+.slogan {
+  color: #9db0d1;
+  font-size: 60px;
+  line-height: 65px;
+  font-family: 'Arapey', serif;
+  text-align: center;
+  margin-top: 100px;
+}
+
+.paragraph{
+  font-family: Verdana;
+  margin: 50px 208px;
+  font-size: 20px;
+  line-height: 24px;
+  text-align: center;
+  color: #000000;
+}
+
+.button-top{
+  text-align: center;
+  margin-left: 41px;
+}
+
+.button{
+  text-transform: uppercase;
+  background: #EBAC87;
+  border-radius: 10px;
+  padding: 24px 50px;
+  color: #FFFFFF;
+  font-size: 30px;
+  line-height: 32px;
+  font-family: 'Arapey';
+  border: none;
+}
+
+.button:hover{
+  background: #c07e58;
+}
+
+.up-list {
+  display: flex;
+  justify-content: center;
+  font-family: Verdana;
+  font-size: 20px;
+  line-height: 24px;
+  margin: 68px 0 66px 30px;
+  }
+  
+  .list-item {
+  display: flex;
+  align-items: center;
+  margin-right: 50px;
+  }
+  
+  .checkmark-box {
+  width: 60px;
+  height: 60px;
+  background-color: #9DB0D1;
+  border-radius: 60%;
+  margin: 0 15px 0 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  }
+
+  .wizard {
+  max-width: 1440px;
+  height: 400px;
+  background: url(../img/Clouds.png) repeat-x top / auto 200px, linear-gradient(180deg, rgba(135, 198, 235, 0) 8.33%, #87C6EB 93.06%);
+  padding: 252px 120px 104px;
+  font-family: 'Arapey';
+  font-style: normal;
+  font-size: 40px;
+  line-height: 44px;
+  text-align: center;
+  }
+
+.centr-section {
+  max-width: 1440px;
+  height: 1047px;
+  background: url(../img/Downmountain.png) 90% 100%/ 600px 475px no-repeat , #87C6EB;
+}
+
+.nav {
+  width: 350px;
+  height: 560px;
+  background: #FFFFFF;
+  border-radius: 10px;
+  padding: 20px;
+}
+
+.check-number1, .check-number2, .check-number3 {
+  width: 60px;
+  height: 60px;
+  border-radius: 60%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.check-number1 {
+  background-color: rgba(235, 172, 135, 0.4);
+}
+
+.check-number2 {
+  background-color: rgba(235, 172, 135, 0.6);
+}
+
+.check-number3 {
+  background-color: #EBAC87;
+}
+
+.mauntins-fonts {
+  width: 310px;
+  height: 310px;
+  background: #EBAC87;
+  margin-top: 10px;
+}
+
+.mauntins {
+  width: 100%;
+}
+
+.bold {
+  font-weight: bold;
+}
+
+.text-nav {
+  width: 260px;
+  height: 120px;
+  font-family: 'Verdana';
+  font-size: 20px;
+  line-height: 24px;
+  padding-top: 20px;
+}
+
+.centr-nav {
+  display: flex;
+  justify-content: center;
+}
+
+.centr-nav .nav {
+  margin: 0 37px;
+}
+
+.title3 {
+  font-family: 'Arapey';
+  width: 600px;
+  font-size: 40px;
+  line-height: 44px;
+  color: #FFFFFF;
+  margin: 75px 0 0 120px;
+}
+
+.underline {
+  text-decoration: underline;
+}
+
+.paragraph-down {
+  font-family: 'Verdana';
+  width: 600px;
+  font-size: 20px;
+  line-height: 24px;
+  margin: 50px 0 0 120px;
+}
+
+.button-centr {
+  background: #FFFFFF;
+  border-radius: 10px;
+  padding: 24px 50px;
+  font-family: 'Arapey';
+  font-size: 30px;
+  line-height: 32px;
+  text-align: center;
+  text-transform: uppercase;
+  color: #EBAC87;
+  margin: 50px 0 0 120px;
+  border: none;
+}
+
+.button-centr:hover {
+  background: #f3d9d9;
+  color: #FFFFFF;
+}
+
+.question {
+  width: 80px;
+  height: 80px;
+  background-color: #EBAC87;
+  border-radius: 60%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 50px 80px 0 0 ;
+}
+
+.nav-down {
+  display: flex;
+  justify-content: space-between;
+}
+
+.button-down {
+  margin: 50px 0 50px 120px;
+}
+
+.footer {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.social-item {
+  display: inline-block;
+  margin-right: 36px;
+}
+
+.pinterest {
+  margin-right: 51px;
+}
